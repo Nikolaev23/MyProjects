@@ -4,7 +4,7 @@ class AgeAfter10Years
 {
     static void Main()
     {
-        Console.WriteLine("Enter your age :");
+        Console.WriteLine("Enter your birthday : mm/dd/yyy :");
         DateTime date = DateTime.Parse(Console.ReadLine());
         DateTime dateNow = DateTime.Now;
 
